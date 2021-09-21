@@ -13,7 +13,7 @@ setInterval(function(){
       var name = response.data.offers[0].metadata.name
     client.user.setPresence({
       activity: {
-        name: `Price Floor: ${price / 1000000000} SOL for ${name}`,
+        name: `Price Floor: ${price / 1000000000} SOL for ${name} || By @Revan AR`,
         type: 'WATCHING'
       }
     })        
@@ -23,4 +23,5 @@ setInterval(function(){
   })
 }, 3000);
 
-client.login('ODg5NjE5NzIyMjA1Nzk0NDI0.YUj47g.5Mdv_-bajg9BRhBCQDmIwWVvUH4');
+// READ THIS LINE
+client.login('change this text with your bot token from https://discord.com/developers');
