@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "axios": "^0.21.4",
+    "discord.js": "^12.5.3",
+    "node-fetch": "^2.6.1"
+  },
+  "name": "solchecker",
+  "version": "1.0.0",
+  "description": "Sol Tokens Checker",
+  "main": "start.js",
+  "scripts": {
+    "test": "node start.js"
+  },
+  "author": "Revan AR",
+  "license": "ISC"
+}
